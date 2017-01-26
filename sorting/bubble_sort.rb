@@ -1,5 +1,3 @@
-require 'pry'
-
 class BubbleSort
   def sort(input)
     (input.length - 1).times do
@@ -15,10 +13,5 @@ class BubbleSort
 end
 
 e = BubbleSort.new
-# collection = ([6, 3, 8, 9, 1, 4, 0, 5, 2, 7])
-collection = [9,8,7,7,6,5,4,3,2,1,0]
+collection = [10, 15, 6, 9, 14, 4, 2, 7, 0, 1, 13, 5, 8, 3, 11, 12]
 e.sort(collection)
-
-# sorter.sort([4, 3, 8, 6, 2, 5, 9, 7, 1, 0])
-# sorter.sort(['d', 'b', 'a', 'c'])
-# => ["a", "b", "c", "d"]
